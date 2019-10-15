@@ -26,16 +26,16 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 
 **ARTIST**
 
-  * `Artist.all`
+  * `Artist.all` DONE
     * Returns an `array` of all the artists
 
-  * `Artist#paintings`
+  * `Artist#paintings` DONE
     * Returns an `array` all the paintings by an artist
 
-  * `Artist#galleries`
+  * `Artist#galleries` DONE
     * Returns an `array` of all the galleries that an artist has paintings in
 
-  * `Artist#cities`
+  * `Artist#cities` DONE
     * Return an `array` of all cities that an artist has paintings in
 
   * `Artist.total_experience`
@@ -57,10 +57,10 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 
 **GALLERY**
 
-  * `Gallery.all`
+  * `Gallery.all` Done
     * Returns an `array` of all the galleries
 
-  * `Gallery#paintings`
+  * `Gallery#paintings` Done
     * Returns an `array` of all paintings in a gallery
 
   * `Gallery#artists`
