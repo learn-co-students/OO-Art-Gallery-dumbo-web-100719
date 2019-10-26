@@ -8,7 +8,8 @@ class Artist
     @@all << self
   end
 
-  def create_painting(title,price,gallery)
+  def create_painting(title,price,artist,gallery)
+    # title, price, artist,gallery
     Painting.new(title,price,self,gallery)
   end
   
@@ -25,8 +26,12 @@ class Artist
   end
 
   def self.total_experience
-    t_exp = 0
-    self.all.map {|artist| t_exp += artist.years_experience}.last
+    # t_exp = 0
+    # self.all.map {|artist| t_exp += artist.years_experience}.last
+    # self.all.reduce(0) {|sum,artist| sum + artist.years_experience}
+
+    # self.all.map {|artist| artist.years_experience}.sum
+
   end
 
   def self.most_prolific
